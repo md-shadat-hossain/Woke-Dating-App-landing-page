@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="/images/woke-logo.png" />
+    <title>Delete Account - Woke Dating</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/templatemo-ebook-landing.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main>
+      <!-- Navbar (same style as index) -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="./images/woke-logo.png" alt="Woke Logo" style="width: auto; height: 28px;">
+            <span>WOKE</span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-lg-auto me-lg-4">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#section_1">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#section_5">Contact</a>
+              </li>
+            </ul>
+
+            <div class="d-none d-lg-block">
+              <a href="index.html" class="btn custom-btn custom-border-btn btn-naira btn-inverted">
+                <i class="btn-icon bi-arrow-left"></i>
+                <span>Back</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Page Header -->
+      <section class="hero-section d-flex justify-content-center align-items-center" style="min-height: 45vh;">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-7 col-12">
+              <h1 class="text-white mb-3">Delete Account</h1>
+              <p class="text-white mb-0" style="opacity: .9;">
+                Enter your email and password to confirm account deletion.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Form Section -->
+      <section class="contact-section section-padding" id="delete_account_section">
+        <div class="container">
+          <div class="row">
+
+            <div class="col-lg-6 col-12 mx-auto">
+              <div class="custom-form ebook-download-form bg-white shadow" style="padding: 35px;">
+                <div class="text-center mb-4">
+                  <h2 class="mb-1">Confirm Deletion</h2>
+                  <small class="text-muted">Enter your credentials and confirm to delete your account.</small>
+                </div>
+
+                <!-- Alerts -->
+                <div id="alertArea" class="mb-3"></div>
+
+                <!-- Delete Form -->
+                <div id="deleteForm">
+                  <div class="input-group mb-3">
+                    <input
+                      type="email"
+                      id="emailInput"
+                      class="form-control"
+                      placeholder="Enter your email"
+                      aria-label="Email"
+                      required
+                    >
+                    <span class="input-group-text">
+                      <i class="custom-form-icon bi-envelope"></i>
+                    </span>
+                  </div>
+
+                  <div class="input-group mb-3">
+                    <input
+                      type="password"
+                      id="passwordInput"
+                      class="form-control"
+                      placeholder="Enter your password"
+                      aria-label="Password"
+                      required
+                    >
+                    <span class="input-group-text">
+                      <i class="custom-form-icon bi-lock"></i>
+                    </span>
+                  </div>
+
+                  <button id="deleteBtn" class="form-control mb-2" type="button">
+                    Delete Account
+                  </button>
+
+                  <small class="text-muted d-block">
+                    This action is permanent and cannot be undone.
+                  </small>
+
+                  <small class="text-muted d-block mt-2">
+                    If the request fails, you will see the API error message here.
+                  </small>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-12 mt-4 mt-lg-0">
+              <h6 class="mt-2">Important</h6>
+              <h2 class="mb-3">Before you delete</h2>
+              <p class="mb-2">Deleting your account may remove your profile, matches, and chats permanently.</p>
+              <p class="mb-4">If you only want to take a break, consider logging out or disabling notifications instead.</p>
+
+              <p style="color:#555; font-size: 16px; text-decoration: underline;">
+                <a href="./privacyPolicy.html" style="color: inherit;">Privacy Policy</a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <section class="contact-section" style="padding-top: 0;">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <p>
+                <a href="./aboutUs.html" style="color: #555; font-size: 16px; text-decoration: underline;">About us</a> |
+                <a href="./privacyPolicy.html" style="color: #555; font-size: 16px; text-decoration: underline;">Privacy Policy</a> |
+                <a href="./termsAndConditions.html" style="color: #555; font-size: 16px; text-decoration: underline;">Terms And Condition</a> |
+                <a href="./deleteAccount.html" style="color: #555; font-size: 16px; text-decoration: underline;">Delete Account</a>
+              </p>
+
+              <p class="copyright-text">
+                Copyright © 2048 Woke Dating
+                <br><br><a rel="nofollow" href="https://shadat-hossain.netlify.app" target="_blank">designed by</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Confirm Delete Modal -->
+      <div class="modal fade" id="confirmDeleteModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Confirm deletion</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+              Are you sure you want to delete your account? This action cannot be undone.
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+                Cancel
+              </button>
+              <button type="button" id="confirmYesBtn" class="btn btn-danger">
+                Yes, Delete
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+      const API_URL = "https://api.wokedatingsite.com/api/v1/auth/delete-account";
+
+      const emailInput = document.getElementById("emailInput");
+      const passwordInput = document.getElementById("passwordInput");
+
+      const deleteBtn = document.getElementById("deleteBtn");
+      const confirmYesBtn = document.getElementById("confirmYesBtn");
+
+      const alertArea = document.getElementById("alertArea");
+
+      function showAlert(type, message) {
+        alertArea.innerHTML = `
+          <div class="alert alert-${type} mb-0" role="alert" style="font-size: 14px;">
+            ${message}
+          </div>
+        `;
+      }
+
+      function clearAlert() {
+        alertArea.innerHTML = "";
+      }
+
+      function isValidEmail(email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+      }
+
+      function setLoading(loading) {
+        deleteBtn.disabled = loading;
+        deleteBtn.textContent = loading ? "Deleting..." : "Delete Account";
+      }
+
+      // Open confirm modal
+      deleteBtn.addEventListener("click", () => {
+        clearAlert();
+
+        const email = (emailInput.value || "").trim();
+        const password = (passwordInput.value || "").trim();
+
+        if (!email) return showAlert("danger", "Please enter your email.");
+        if (!isValidEmail(email)) return showAlert("danger", "Please enter a valid email.");
+        if (!password) return showAlert("danger", "Please enter your password.");
+
+        const modalEl = document.getElementById("confirmDeleteModal");
+        const modal = new bootstrap.Modal(modalEl);
+        modal.show();
+      });
+
+      // Confirm YES -> call API
+      confirmYesBtn.addEventListener("click", async () => {
+        clearAlert();
+
+        const email = (emailInput.value || "").trim();
+        const password = (passwordInput.value || "").trim();
+
+        setLoading(true);
+
+        try {
+          const res = await fetch(API_URL, {
+            method: "DELETE",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ email, password }),
+          });
+
+          const data = await res.json().catch(() => ({}));
+
+          // Close modal
+          const modalEl = document.getElementById("confirmDeleteModal");
+          const modal = bootstrap.Modal.getInstance(modalEl);
+          if (modal) modal.hide();
+
+          // Success
+          if (res.ok && data?.code === 200) {
+            showAlert("success", data?.message || "Account deleted successfully.");
+            emailInput.value = "";
+            passwordInput.value = "";
+            return;
+          }
+
+          // Error message
+          const msg =
+            data?.message ||
+            data?.error ||
+            `Delete failed (HTTP ${res.status}). Please try again.`;
+
+          showAlert("danger", msg);
+        } catch (err) {
+          // Close modal on error too
+          const modalEl = document.getElementById("confirmDeleteModal");
+          const modal = bootstrap.Modal.getInstance(modalEl);
+          if (modal) modal.hide();
+
+          showAlert("danger", "Network error. Please check your connection / server and try again.");
+        } finally {
+          setLoading(false);
+        }
+      });
+
+      // Enter key support
+      passwordInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") deleteBtn.click();
+      });
+    </script>
+  </body>
+</html>
